@@ -71,6 +71,8 @@ ZSH_THEME="aditya"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 plugins=(zsh-autosuggestions)
+plugins=(zsh-syntax-highlighting)
+plugins=(docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -126,3 +128,5 @@ source $ZSH/oh-my-zsh.sh
 # Custom Bash Aliases and Funcs
   alias zshconfig="vim ~/.zshrc"
     
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
