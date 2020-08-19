@@ -127,6 +127,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom Bash Aliases and Funcs
   alias zshconfig="vim ~/.zshrc"
+  alias open=" cmd.exe /C start"
     
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
