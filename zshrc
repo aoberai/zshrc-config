@@ -132,6 +132,8 @@ gall() {
 
 # Custom Bash Aliases and Funcs
 alias zshconfig="vim ~/.zshrc"
+alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
